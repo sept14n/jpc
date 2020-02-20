@@ -33,3 +33,4 @@ Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('r
 
 Route::resource('projects', 'ProjectController');
 Route::resource('projects.tasks', 'TaskController');
+Route::resource('division', 'DivisiController');

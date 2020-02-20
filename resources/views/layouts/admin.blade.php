@@ -182,6 +182,16 @@
                 <span>Settings</span>
               </a>
             </li>
+
+            <li class="header-menu">
+              <span>Master Data</span>
+            </li>
+            <li>
+              <a href="{{ route('division.index') }}">
+                <i class="fa fa-cog"></i>
+                <span>Divisi</span>
+              </a>
+            </li>
           </ul>
         </div>
         <!-- sidebar-menu  -->
